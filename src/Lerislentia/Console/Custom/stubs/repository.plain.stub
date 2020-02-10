@@ -1,0 +1,20 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\Model;
+
+class DummyClass
+{
+    protected $model;
+
+    /**
+     * constructor function
+     *
+     * @param Illuminate\Database\Eloquent\Model $model
+     */
+    public function __construct(Model $model){
+        $this->model = $model;
+    }
+}

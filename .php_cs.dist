@@ -1,0 +1,34 @@
+<?php
+return PhpCsFixer\Config::create()
+    ->setRules([
+        '@PSR2' => true,
+        'indentation_type' => false,
+        'braces' => ['position_after_control_structures' => 'same',
+                     'position_after_functions_and_oop_constructs' => 'next'
+                    ],
+        'align_multiline_comment' => true,
+        'blank_line_after_namespace' => true,
+        'cast_spaces' => true,
+        'encoding' => true,
+        'linebreak_after_opening_tag' => true,
+        'no_blank_lines_after_class_opening' => true,
+        'no_closing_tag' => true,
+        'no_empty_comment' => true,
+        'no_empty_phpdoc' => true,
+        'no_empty_statement' => true,
+        'no_trailing_whitespace' => true,
+        'no_trailing_whitespace_in_comment' => true,
+        'no_whitespace_before_comma_in_array' => true,
+        'no_whitespace_in_blank_line' => true,
+        'no_spaces_inside_parenthesis' => true,
+        'phpdoc_align' => true,
+        'phpdoc_indent' => true,
+        'phpdoc_no_empty_return' => true,
+        'phpdoc_no_package' => true,
+        'phpdoc_order' => true,
+        'phpdoc_var_without_name' => true,
+        'single_blank_line_at_eof' => true,
+
+    ])
+    ->setIndent("    ")
+    ->setLineEnding("\r\n");

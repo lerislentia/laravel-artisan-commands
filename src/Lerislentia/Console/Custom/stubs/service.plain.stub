@@ -1,0 +1,20 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Http\Request;
+use DummyRootNamespaceRepositories\Interfaces\IRepository;
+
+class DummyClass
+{
+    protected $repository;
+
+    /**
+     * constructor function
+     *
+     * @param IRepository $repository
+     */
+    public function __construct(IRepository $repository){
+        $this->repository = $repository;
+    }
+}
