@@ -18,10 +18,10 @@
     ],
     "type": "library",
     "require": {
-        "php": ">=7.2.0",
-        "laravel/framework": "5.8.*"
+        "php": ">=7.2.0"
     },
 	"require-dev": {
+        "laravel/framework": "5.8.*",
         "phpunit/phpunit": "^8.3",
         "friendsofphp/php-cs-fixer": "^2.9"
     },
@@ -31,11 +31,6 @@
 	"autoload": {
         "psr-4": {
             "Lerislentia\\ArtisanCommands\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
