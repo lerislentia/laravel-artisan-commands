@@ -18,15 +18,12 @@
     ],
     "type": "library",
     "require": {
-        "php": ">=7.2.0"
+        "php": ">=7.0.0"
     },
 	"require-dev": {
         "laravel/framework": "5.8.*",
         "phpunit/phpunit": "^8.3",
         "friendsofphp/php-cs-fixer": "^2.9"
-    },
-    "config": {
-        "sort-packages": true
     },
 	"autoload": {
         "psr-4": {
