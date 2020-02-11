@@ -20,12 +20,12 @@
     "require": {
         "php": ">=7.0.0"
     },
-	"require-dev": {
+    "require-dev": {
         "laravel/framework": "5.8.*",
         "phpunit/phpunit": "^8.3",
         "friendsofphp/php-cs-fixer": "^2.9"
     },
-	"autoload": {
+    "autoload": {
         "psr-4": {
             "Lerislentia\\ArtisanCommands\\": "src"
         }
