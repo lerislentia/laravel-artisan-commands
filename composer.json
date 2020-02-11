@@ -1,7 +1,6 @@
 {
     "name": "lerislentia/laravel-artisan-commands",
     "description": "Some useful Artisan commands for Laravel.",
-    "version": "1.0",
     "keywords": [
         "framework",
         "laravel",
